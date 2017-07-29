@@ -5,7 +5,7 @@ var methodOverride = require("method-override");
 // =============================================================
 var app = express();
 var path = require("path");
-var PORT = process.env.PORT || 8080 ;
+var PORT = process.env.PORT || 3000 ;
 
 app.get('/', function(req, res) {
     res.send('burger');
