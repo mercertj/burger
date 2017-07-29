@@ -10,4 +10,3 @@ CREATE TABLE burgers
     burger_time TIMESTAMP,
     PRIMARY KEY (id)
 );
-
